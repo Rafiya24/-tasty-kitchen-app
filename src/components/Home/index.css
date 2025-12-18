@@ -1,0 +1,166 @@
+.home-container {
+  min-height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.sorting-heading {
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carousel-container {
+  height: 30vh;
+  width: 70vw;
+  border-radius: 5px;
+  text-align: center;
+}
+.carousel-item {
+  height: 30vh;
+  width: 70vw;
+  border-radius: 5px;
+}
+.popular-restaurants-container {
+  min-height: 80vh;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.Popular-restaurants-heading {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 20px;
+  color: #183b56;
+}
+.Popular-restaurant-description {
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 14px;
+  color: #64748b;
+}
+.hr-line {
+  width: 60vw;
+  border: 1px solid #cbd2d9;
+}
+.ul-restaurants-list {
+  list-style-type: none;
+  height: auto;
+  width: 65vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.restaurent-img {
+  height: 110px;
+  width: 130px;
+  border: none;
+  margin-right: 5px;
+  border-radius: 7px;
+}
+.list-item-container {
+  height: 120px;
+  width: 270px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.restaurents-name {
+  font-family: DM Sans;
+  font-weight: bold;
+  font-size: 13px;
+  color: #334155;
+}
+.restaurent-menu-type {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 12px;
+  color: #64748b;
+}
+.star {
+  color: #ffcc00;
+}
+.restaurent-rating-container {
+  display: flex;
+  align-items: center;
+}
+.restaurnet-rating {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 14px;
+}
+.restaurent-reviews {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 12px;
+  color: #64748b;
+}
+.sorting-container {
+  width: 180px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.sorter {
+  height: 30px;
+  width: 30px;
+  color: #475569;
+}
+.sort-by {
+  position: relative;
+  display: inline-block;
+  color: #475569;
+  font-size: 14px;
+  font-family: roboto;
+  text-align: center;
+}
+.select {
+  color: #475569;
+  font-size: 14px;
+  font-family: roboto;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sort-by {
+  color: #475569;
+  font-size: 14px;
+  font-family: roboto;
+}
+.page-btn {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #334155;
+  color: #334155;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+.paginations-container {
+  height: 30px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: roboto;
+  color: #334155;
+  font-weight: bold;
+}
+.home-loader-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

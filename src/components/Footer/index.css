@@ -1,0 +1,40 @@
+.footer-container {
+  min-height: 30vh;
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.footer-kitchen-logo {
+  height: 30px;
+  width: 35px;
+  margin-right: 5px;
+}
+.sub-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-heading {
+  font-family: DM Sans;
+  font-size: 20px;
+  color: #ffffff;
+}
+.footer-description {
+  font-family: DM Sans;
+  font-size: 17px;
+  color: #ffffff;
+}
+.footer-logos-container {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-logos {
+  height: 30px;
+  width: 30px;
+  color: #ffffff;
+}

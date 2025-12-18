@@ -1,0 +1,19 @@
+.quantity-buttons-container {
+  height: 30px;
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-minus-btn {
+  height: 22px;
+  width: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: #475569;
+  border: 1px solid #475569;
+  border-radius: 4px;
+  background-color: transparent;
+}
