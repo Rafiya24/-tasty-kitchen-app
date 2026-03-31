@@ -95,6 +95,11 @@ class Login extends Component {
             </button>
             {showError && <p className="login-error">{errorMsg}</p>}
           </form>
+          <div className="demo-credentials-container">
+            <h1 className="demo-credentials-heading">Demo Credentials</h1>
+            <p className="credentials">Username: rahul</p>
+            <p className="credentials">Password: rahul@2021</p>
+          </div>
         </div>
         <div>
           <img
